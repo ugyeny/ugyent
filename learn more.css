@@ -1,0 +1,67 @@
+/* General Styles for the Learn More Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color for Learn More page */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark header */
+    padding: 3rem;
+    color: white;
+    border-radius: 10px;
+    margin: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Section Styles */
+  section {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 800px; /* Limit section width */
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow around sections */
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007BFF; /* Blue color for section headings */
+    text-align: center;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555; /* Lighter color for paragraphs */
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
