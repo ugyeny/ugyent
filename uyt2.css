@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  
+}
+
+/* Header Styling */
+header {
+  background-color: #444;
+  color: white;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
+
+/* Navigation Menu Styling */
+nav {
+  margin: 1rem 0;
+}
+
+nav .button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav .button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content Styling */
+main {
+  padding: 1rem;
+}
+
+section {
+  margin: 2rem 0;
+  display: none; /* Hide all sections by default */
+}
+
+/* Display the targeted section */
+:target {
+  display: block;
+}
+
+/* Default Section */
+main > section:first-of-type {
+  display: block; /* Show the first section by default */
+}
+
+/* Video and Photo Styling */
+video, img {
+  margin: 1rem auto;
+  display: block;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+}
+
+/* Apply background image to the entire website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('stunning_goal_bg.png'); /* Path to the image */
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Makes the background fixed while scrolling */
+  color: white; /* Adjust text color for readability */
+}
+
+/* Additional styling for better text readability */
+header, nav, section, footer {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow to text */
+}
